@@ -99,8 +99,6 @@ def testRead5(param={}):
     connection.close()
 
 
-
-
 def testRead6(param={}):
     id = param.get('id', 0)
     name = param.get('name', '')
@@ -152,9 +150,8 @@ param = {'id': 0,
          'lastname': '',
          'salary': 0,
          'pageNo': 1,
-        'pageSize': 2
+         'pageSize': 2
          }
 
-
-#testRead5(param)
+# testRead5(param)
 testRead6(param)
