@@ -1,6 +1,6 @@
 import pymysql
-from MarksheetBean import *
 
+from ByBean.MarksheetBean import MarksheetBean
 
 
 class MarksheetModel:
