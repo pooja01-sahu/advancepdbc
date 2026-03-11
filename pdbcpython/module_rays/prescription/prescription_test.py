@@ -19,6 +19,7 @@ def testGet():
     for data in list:
         print(data['prescriptionId'], '\t', data['patientName'], '\t', data['doctorName'], '\t', data['prescribedDate'])
 
+
 def testupdate():
     pres = PrescriptionBean()
     pres.prescriptionId = 5
@@ -28,9 +29,11 @@ def testupdate():
     model = PrescriptionModel()
     model.update(pres)
 
+
 def testDelete():
     model = PrescriptionModel()
     model.delete(4)
+
 
 # testadd()
 # testGet()
